@@ -24,120 +24,130 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
 <html>
-    <head>
+<head>
+    <title>SLOT TIMETABLE</title>
+</head>
+<center>
+<img src="/static/logo.png" width='600'align="center">
+</center>
+<body>
+    <table BORDER='3' width='600'bgcolor='white' cellspacing='3' align="center">
+        <CAPTION align="above">SLOT TIMETABLE- HARINI S(212223040058)</CAPTION>
+        <tr>
+            <th align="center" bgcolor="yellow">Day/Time</th>
+            <th align="center" bgcolor="yellow">Monday</th>
+            <th align="center" bgcolor="yellow">Tuesday</th>
+            <th align="center" bgcolor="yellow">Wednesday</th>
+            <th align="center" bgcolor="yellow">Thursday</th>
+            <th align="center" bgcolor="yellow">Friday</th>
+            <th align="center" bgcolor="yellow">Saturday</th>
+    
+        </tr>
 
-    </head>
-    <body>
-        <center>
-            <img src="/static/logo.png" height="100"width="540">
-        </center>
-        <br>
-        <table align="center" width="540">
-            <caption><b>SLOT TIMETABLE HARINI S(212223040058)</b></caption>
-            <tr align="center">
-                <th bgcolor="yellow">Day/Time</th>
-                <th bgcolor="yellow">Monday</th>
-                <th bgcolor="yellow">Tuesday</th>
-                <th bgcolor="yellow">Wednesday</th>
-                <th bgcolor="yellow">Thursday</th>
-                <th bgcolor="yellow">Friday</th>
-            </tr>
-            <tr align="center">
-                <th bgcolor="yellow">8-10</th>
-                <td bgcolor="blue">DIGITAL ELECTRONICS</td>
-                <td bgcolor="blue">ALGEBRA AND NUMBER ALGEBRA</td>
-                <td bgcolor="blue">GERMAN BASIC AND ADVANCEDR</td>
-                <td bgcolor="blue">FREE SLOT</td>
-                <td bgcolor="blue">FUNDAMENTALS OF WEB APPLICATION AND DEVELOPMENT </td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="yellow">10-12</th>
-                <td bgcolor="blue">FREE SLOT</td>
-                <td bgcolor="blue">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="blue">FREE SLOT</td>
-                <td bgcolor="blue">FREE SLOT</td>
-                <td bgcolor="blue">PYTHON PROGRAMMING</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="yellow">12-1</th>
-                <td bgcolor="blue">LUNCH</td>
-                <td bgcolor="blue">MENTOR MEET</td>
-                <td bgcolor="blue">LUNCH</td>
-                <td bgcolor="blue">LUNCH</td>
-                <td bgcolor="blue">LUNCH</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="yellow">1-3</th>
-                <td bgcolor="blue">GERMAN BASIC AND ADVANCED</td>
-                <td bgcolor="blue">FREE SLOT</td>
-                <td bgcolor="blue">CREATIVE SKILLS FOR COMMUNICATION</td>
-                <td bgcolor="blue">ALGEBRA AND NUMBER THEORY</td>
-                <td bgcolor="blue">PYTHON PROGRAMMING</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="yellow">3-5</th>
-                <td bgcolor="blue">OPERATING SYSTEM</td>
-                <td bgcolor="blue">GERMAN BASIC AND ADVANCED</td>
-                <td bgcolor="blue">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="blue">PYTHON PROGRAMMING</td>
-                <td bgcolor="blue">FREE SLOT</td>
-            </tr>
-        </table>
-        <br>
-        <table align="center" cellspacing="2" cellpadding="6" border="6">
-            <tr align="center">
-                <th>S.No.</th>
-                <th>Subject Code</th>
-                <th>Subject Name</th>
-            </tr> 
-            <tr>
-                <td align="center">1.</td>
-                <td align="center">19AI414</td>
-                <td>FUNDAMENTALS OF WEB APPLICATION AND DEVELOPMENT(FWAD)</td>
-            </tr>
-            <tr>
-                <td align="center">2.</td>
-                <td align="center">19CS405</td>
-                <td>OPERATING SYSTEM(OS)</td>
-            </tr>
-            <tr>
-                <td align="center">3.</td>
-                <td align="center">19EN613C</td>
-                <td>GERMAN BASIC AND ADVANCED(GBA)</td>
-            </tr>
-            <tr>
-                <td align="center">4.</td>
-                <td align="center">19MA212</td>
-                <td>ALGEBRA AND NUMBER THEORY(ANT)</td>
-            </tr>
-            <tr>
-                <td align="center">5.</td>
-                <td align="center">19EE404</td>
-                <td>DIGITAL ELECTRONICS(DE)</td>
-            </tr>
-            <tr>
-                <td align="center">6.</td>
-                <td align="center">19AI301</td>
-                <td>PYTHON PROGRAMMING(PP)</td>
-            </tr>
-            <tr>
-                <td align="center">7.</td>
-                <td align="center">19EY702</td>
-                <td>CREATIVE SKILLS (cs)</td>
-            </tr>
-        </table>
+        <tr>
+            <th align="center" bgcolor="yellow">8-10</th>
+            <td align="center" bgcolor="lightblue">Digital Electronics</td>
+            <td align="center" bgcolor="lightblue">Algebra and number theory</td>
+            <td align="center" bgcolor="lightblue">German basic and advanced</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Fundamentals of application and Web Development</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+           
+            
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="yellow">10-12</th>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Fundamentals of application and Web Development</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">python programming</td>
+            <td align="center" bgcolor="lightblue">Operating system</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="yellow">12-1</th>
+            <td align="center" bgcolor="lightblue" colspan="6">LUNCH</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="yellow">1-3</th>
+            <td align="center" bgcolor="lightblue">German basic and advanced</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Creative skills</td>
+            <td align="center" bgcolor="lightblue">Algebra and number theory</td>
+            <td align="center" bgcolor="lightblue">Digital electronics</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+        </tr>
+
+
+        <tr>
+            <th align="center" bgcolor="yellow">3-5</th>
+            <td align="center" bgcolor="lightblue">Operating System</td>
+            <td align="center" bgcolor="lightblue">German basic and advanced</td>
+            <td align="center" bgcolor="lightblue">Fundamentals of application and Web Development</td>
+            <td align="center" bgcolor="lightblue">Python programming</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+        </tr>
+    </table>
+
+    <table border="3" width="600" cellspacing="6" cellpaddling="6" align="center">
+
+        <tr>
+            <th align="center">S.NO</th>
+            <th align="center">SUBJECT CODE</th>
+            <th align="center">subject name</th>
+        </tr>
+
+        <tr>
+            <td align="center">1</td>
+            <td align="center">19AI414</td>
+            <td align="center">Fundamental of Web Application Development(FWAD)</td>
+        </tr>
+
+        <tr>
+            <td align="center">2</td>
+            <td align="center">19AI301</td>
+            <td align="center">Python Programming</td>
+        </tr>
+
+        <tr>
+            <td align="center">3</td>
+            <td align="center">19EY702</td>
+            <td align="center">Creative Skills</td>
+        </tr>
+
+        </tr>
+
+        <tr>
+            <td align="center">4</td>
+            <td align="center">19MA212</td>
+            <td align="center">Algebra and number theory</td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td align="center">19EE404</td>
+            <td align="center">Digital Electronics</td>
+        </tr>
+        <tr>
+            <td align="center">6</td>
+            <td align="center">19CS405</td>
+            <td align="center">Operating System</td>
+        </tr>
     </body>
-</html>
-
+    </html>
+```
+                
 ## OUTPUT
 
+![Screenshot 2024-03-29 205613](https://github.com/harinisaravanan10/slot/assets/149035598/feb31c8d-260e-4f6d-9b5e-9a1db38aa452)
 
-![Screenshot 2024-03-23 232220](https://github.com/harinisaravanan10/slot/assets/149035598/973bd1ab-8b45-4a99-831a-9908d10de985)
 
-
-![Screenshot 2024-03-23 232231](https://github.com/harinisaravanan10/slot/assets/149035598/2e659f72-d867-4087-9488-e8344e5fc207)
-
+![Screenshot 2024-03-29 205522](https://github.com/harinisaravanan10/slot/assets/149035598/6a192abf-dc26-4812-b3d2-c5d5b649a8ac)
 
 
 ## RESULT
